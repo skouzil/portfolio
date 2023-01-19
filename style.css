@@ -1,0 +1,246 @@
+/* Corps de la page  */
+
+body {
+    font-family: "Goldman";
+    background-color: #142b4d;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style de la balise h1 (Portfolio) */
+
+h1 {
+    font-family: 'Rajdhani';
+    color: #f0ebd8;
+    font-size: 5rem;
+    text-align: center;
+    align-items: center;
+}
+
+/* Titres pages (ex : Mes projets, etc...) */
+
+h2 {
+    font-family: 'Goldman';
+    color: #f0ebd8;
+    font-size: 5rem;
+    text-align: center;
+    align-items: center;
+}
+
+/* Barre de navigation  */
+
+.navbar {
+    color: #f0ebd8;
+    display: flex;
+    height: 100px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: #f0ebd8;
+}
+
+
+.navbar div {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+a {
+    font-size: 1.98rem;
+    text-decoration: none;
+    color: #f0ebd8;
+}
+
+/* Quand on va sur un élément de la barre de navigation */
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Concernant les éléments de la page lorsqu'ils sont redimentionnés */
+
+main {
+    flex-grow: 1;
+    /* border: green solid; */
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1000px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+
+/* --- Page "Qui suis-je ?" --- */
+
+p.about_1 {
+    /* border: red solid; */
+    display: inline;
+
+    color: #f0ebd8;
+    width: 40%;
+
+    margin-left: 1em;
+    margin-bottom: 1rem;
+    font-size: 1.3em;
+    text-align: justify;
+    block-size: 300px;
+
+    vertical-align: top;
+    margin: 0;
+
+}
+
+
+.pdp {
+    width: 40%;
+}
+
+.pdp img {
+    width: 100%;
+    height: auto;
+
+}
+
+.b1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* --- Page "Mes compétences" --- */
+
+
+
+
+/* --- Page "Contact" --- */
+
+/* formulaire contact */
+
+form {
+    /* Uniquement centrer le formulaire sur la page */
+    margin: 0 auto;
+    width: 400px;
+    /* Encadré */
+    padding: 1em;
+    border: 5px solid #f0ebd8;
+    border-radius: 1em;
+
+    color: #f0ebd8;
+}
+
+form div+div {
+    margin-top: 5em;
+}
+
+label {
+    /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input,
+textarea {
+    /* Pour s'assurer que tous les champs texte ont la même police.
+     Par défaut, les textarea ont une police monospace */
+    font: 1em sans-serif;
+
+    /* Pour que tous les champs texte aient la même dimension */
+    width: 300px;
+    box-sizing: border-box;
+
+    /* Pour harmoniser le look & feel des bordures des champs texte */
+    border: 1px solid #f0ebd8;
+}
+
+input:focus,
+textarea:focus {
+    /* Pour souligner légèrement les éléments actifs */
+    border-color: #000;
+}
+
+textarea {
+    /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+    vertical-align: top;
+
+    /* Pour donner assez de place pour écrire du texte */
+    height: 5em;
+}
+
+.button {
+    /* Pour placer le bouton à la même position que les champs texte */
+    padding-left: 90px;
+    /* même taille que les étiquettes */
+}
+
+button {
+    /* Cette marge supplémentaire représente grosso modo le même espace que celui
+     entre les étiquettes et les champs texte */
+    margin-left: .5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* color: #f0ebd8 #142b4d */
+
+
+
+
+/* Mes projets */
+
+p.project_1 {
+    /* border: red solid; */
+    display: inline;
+    color: #f0ebd8;
+    width: 40%;
+
+    font-size: 1.3em;
+    text-align: justify;
+
+    vertical-align: top;
+    margin: 0;
+
+}
+
+
+
+.vegancorsica {
+    width: 40%;
+
+}
+
+.vegancorsica img {
+    width: 100%;
+    height: auto;
+
+}
+
+.a1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
