@@ -1,0 +1,161 @@
+body {
+    font-family: "Goldman";
+    background-color: #142b4d;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.balisetext {
+    font-family: 'Goldman';
+    color: #f0ebd8;
+    font-size: 5rem;
+    text-align: center;
+    align-items: center;
+}
+
+main {
+    flex-grow: 1;
+    /* border: green solid; */
+}
+
+@media screen and (max-width: 1000px) {
+    .balisetext {
+        font-family: 'Goldman';
+        color: #f0ebd8;
+        font-size: 2rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .container {
+        width: 100%;
+        height: 100vh;
+        background: #142b4d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #142b4d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills h3 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #f0ebd8;
+    font-size: 16px;
+}
+
+.progress-bar {
+    background: #959595;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress-bar div {
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+}
+
+.progress-bar div span {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #142b4d;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #f0ebd8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.gp {
+    background: #e91e63;
+    animation: gp 1s linear forwards;
+}
+
+.graphic {
+    background: #cddc39;
+    animation: graphic 1s linear forwards;
+}
+
+.htmlcss {
+    background: #00bcd4;
+    animation: htmlcss 1s linear forwards;
+}
+
+.python {
+    background: #ffeb3b;
+    animation: python 1s linear forwards;
+}
+
+.php {
+    background: #9c27b0;
+    animation: php 1s linear forwards;
+}
+
+.gp span {
+    border: 1px solid #e91e63;
+}
+
+.graphic span {
+    border: 1px solid #cddc39;
+}
+
+.htmlcss span {
+    border: 1px solid #00bcd4;
+}
+
+.python span {
+    border: 1px solid #ffeb3b;
+}
+
+.php span {
+    border: 1px solid #9c27b0;
+}
+
+@keyframes gp {
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes graphic {
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes htmlcss {
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes python {
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes php {
+    100% {
+        width: 40%;
+    }
+}

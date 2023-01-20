@@ -75,7 +75,27 @@ main {
 
 /* Responsive */
 
-@media screen and (max-width: 1000px) {
+
+
+/* --- Page "Qui suis-je ?" --- */
+
+@media screen and (max-width: 900px) {
+    h1 {
+        font-family: 'Rajdhani';
+        color: #f0ebd8;
+        font-size: 2rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    h2 {
+        font-family: 'Goldman';
+        color: #f0ebd8;
+        font-size: 5rem;
+        text-align: center;
+        align-items: center;
+    }
+
     .navbar {
         flex-direction: column;
     }
@@ -83,10 +103,35 @@ main {
     h1 {
         font-size: 2rem;
     }
+
+    .b1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    p.about_1 {
+        /* border: red solid; */
+
+        color: #f0ebd8;
+        width: 40%;
+
+        font-size: 0.6em;
+        text-align: center;
+        margin-left: 25%;
+        margin-right: 25%;
+
+    }
+
+    .svg_2 {
+        display: none;
+    }
+
+    .pdp img {
+        display: none;
+    }
+
 }
-
-
-/* --- Page "Qui suis-je ?" --- */
 
 p.about_1 {
     /* border: red solid; */
@@ -118,6 +163,39 @@ p.about_1 {
 }
 
 .b1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+p.project_1 {
+    /* border: red solid; */
+    display: inline;
+    color: #f0ebd8;
+    width: 40%;
+
+    font-size: 1.3em;
+    text-align: justify;
+
+    vertical-align: top;
+    margin: 0;
+
+}
+
+
+
+.vegancorsica {
+    width: 20%;
+
+}
+
+.vegancorsica img {
+    width: 100%;
+    height: auto;
+
+}
+
+.a1 {
     width: 100%;
     display: flex;
     justify-content: space-around;
