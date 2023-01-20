@@ -86,12 +86,12 @@ main {
 }
 
 .gp {
-    background: #e91e63;
+    background: #00bcd4;
     animation: gp 1s linear forwards;
 }
 
 .graphic {
-    background: #cddc39;
+    background: #00bcd4;
     animation: graphic 1s linear forwards;
 }
 
@@ -101,21 +101,21 @@ main {
 }
 
 .python {
-    background: #ffeb3b;
+    background: #00bcd4;
     animation: python 1s linear forwards;
 }
 
 .php {
-    background: #9c27b0;
+    background: #00bcd4;
     animation: php 1s linear forwards;
 }
 
 .gp span {
-    border: 1px solid #e91e63;
+    border: 1px solid #00bcd4;
 }
 
 .graphic span {
-    border: 1px solid #cddc39;
+    border: 1px solid #00bcd4;
 }
 
 .htmlcss span {
@@ -123,11 +123,11 @@ main {
 }
 
 .python span {
-    border: 1px solid #ffeb3b;
+    border: 1px solid #00bcd4;
 }
 
 .php span {
-    border: 1px solid #9c27b0;
+    border: 1px solid #00bcd4;
 }
 
 @keyframes gp {
