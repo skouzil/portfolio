@@ -87,27 +87,27 @@ main {
 
 .gp {
     background: #00bcd4;
-    animation: gp 1s linear forwards;
+    animation: gp 3s forwards;
 }
 
 .graphic {
     background: #00bcd4;
-    animation: graphic 1s linear forwards;
+    animation: graphic 3s forwards;
 }
 
 .htmlcss {
     background: #00bcd4;
-    animation: htmlcss 1s linear forwards;
+    animation: htmlcss 3s forwards;
 }
 
 .python {
     background: #00bcd4;
-    animation: python 1s linear forwards;
+    animation: python 3s forwards;
 }
 
 .php {
     background: #00bcd4;
-    animation: php 1s linear forwards;
+    animation: php 3s forwards;
 }
 
 .gp span {

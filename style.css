@@ -262,35 +262,30 @@ button {
 
 /* Mes projets */
 
-p.project_1 {
-    /* border: red solid; */
-    display: inline;
-    color: #f0ebd8;
-    width: 40%;
-
-    font-size: 1.3em;
-    text-align: justify;
-
-    vertical-align: top;
-    margin: 0;
-
-}
-
-
-
-.vegancorsica {
-    width: 40%;
-
-}
-
-.vegancorsica img {
-    width: 100%;
-    height: auto;
-
-}
-
 .a1 {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.project_1 {
+    /* border: red solid; */
+    display: inline;
+    text-align: justify;
+    color: #f0ebd8;
+
+    font-size: 1.3em;
+
+    vertical-align: top;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.photo {
+    flex-direction: column;
+    margin-right: 2%;
+}
+
+.photo img {
+    width: 100%;
 }

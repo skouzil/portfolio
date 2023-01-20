@@ -1,0 +1,68 @@
+/* Corps de la page  */
+
+body {
+    font-family: "Goldman";
+    background-color: #142b4d;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style de la balise h1 (Portfolio) */
+
+h1 {
+    font-family: "Rajdhani";
+    color: #f0ebd8;
+    font-size: 5rem;
+    text-align: center;
+    align-items: center;
+    margin: 2em;
+}
+
+/* Titres pages (ex : Mes projets, etc...) */
+
+h2 {
+    font-family: "Goldman";
+    color: #f0ebd8;
+    font-size: 5rem;
+    text-align: center;
+    align-items: center;
+}
+
+/* Concernant les éléments de la page lorsqu'ils sont redimentionnés */
+
+main {
+    flex-grow: 1;
+    /* border: green solid; */
+}
+
+/* Mes projets */
+
+.a1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project_1 {
+    /* border: red solid; */
+    display: inline;
+    text-align: justify;
+    color: #f0ebd8;
+
+    font-size: 1.3em;
+
+    vertical-align: top;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.photo {
+    flex-direction: column;
+    margin-right: 2%;
+}
+
+.photo img {
+    width: 100%;
+}
