@@ -1,3 +1,47 @@
+/* Barre de navigation  */
+
+.navbar {
+    color: #f0ebd8;
+    display: flex;
+    height: 100px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: #f0ebd8;
+}
+
+
+.navbar div {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+a {
+    font-size: 1.98rem;
+    text-decoration: none;
+    color: #f0ebd8;
+}
+
+/* Quand on va sur un élément de la barre de navigation */
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Concernant les éléments de la page lorsqu'ils sont redimentionnés */
+
+.barredenav {
+    flex-grow: 1;
+    /* border: green solid; */
+}
+
 /* Corps de la page  */
 
 body {
@@ -28,6 +72,43 @@ h2 {
     font-size: 5rem;
     text-align: center;
     align-items: center;
+}
+
+/* Barre de navigation */
+
+.navbar {
+    color: #f0ebd8;
+    display: flex;
+    height: 100px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: #f0ebd8;
+}
+
+
+.navbar div {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+a {
+    font-size: 1.98rem;
+    text-decoration: none;
+    color: #f0ebd8;
+}
+
+/* Quand on va sur un élément de la barre de navigation */
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Concernant les éléments de la page lorsqu'ils sont redimentionnés */
@@ -64,5 +145,10 @@ main {
 }
 
 .photo img {
+    transition: transform .5s;
     width: 100%;
+}
+
+.photo img:hover {
+    transform: scale(1.5);
 }
