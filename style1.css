@@ -1,3 +1,18 @@
+.svg_1 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.svg_2 {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
 /* Barre de navigation  */
 
 .navbar {
@@ -83,9 +98,11 @@ h2 {
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
-    justify-content: center;
+
     align-items: center;
     justify-content: space-evenly;
+    z-index: 1;
+    width: 100%;
 }
 
 nav a {
@@ -115,6 +132,8 @@ a:hover {
 
 main {
     flex-grow: 1;
+    height: auto;
+    z-index: 1;
     /* border: green solid; */
 }
 
@@ -151,4 +170,69 @@ main {
 
 .photo img:hover {
     transform: scale(1.5);
+}
+
+@media screen and (max-width: 1000px) {
+    .balisetext {
+        font-family: 'Goldman';
+        color: #f0ebd8;
+        font-size: 2rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .container {
+        width: 100%;
+        height: 100vh;
+        background: #142b4d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .svg_1 {
+        display: none;
+    }
+
+    .svg_2 {
+        display: none;
+    }
+
+
+    h2 {
+        font-family: 'Goldman';
+        color: #f0ebd8;
+        font-size: 3rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+        padding-top: 1.5em;
+    }
+
+    a {
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: #f0ebd8;
+    }
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #142b4d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills h3 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #f0ebd8;
+    font-size: 16px;
 }

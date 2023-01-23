@@ -7,8 +7,8 @@
 
 .svg_2 {
     width: 100%;
-    position: absolute;
-    bottom: 0px;
+    position: relative;
+    bottom: 0;
 }
 
 
@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    overflow: hidden;
+
 }
 
 /* Style de la balise h1 (Portfolio) */
@@ -58,7 +58,6 @@ h2 {
 
     align-items: center;
     justify-content: space-evenly;
-    z-index: 1;
     width: 100%;
 }
 
@@ -135,6 +134,7 @@ main {
         text-decoration: none;
         color: #f0ebd8;
     }
+
 }
 
 p.about_1 {
