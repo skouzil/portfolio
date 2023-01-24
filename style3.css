@@ -99,6 +99,42 @@ main {
 
 /* --- Page "Qui suis-je ?" --- */
 
+
+
+p.about_1 {
+    /* border: red solid; */
+    display: inline;
+    color: #f0ebd8;
+    width: 40%;
+
+    font-size: 1.3em;
+    text-align: justify;
+
+    vertical-align: top;
+    margin: 0;
+
+}
+
+
+.pdp {
+    width: 53%;
+}
+
+.pdp img {
+    width: 100%;
+    height: auto;
+
+}
+
+.b1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* color: #f0ebd8 #142b4d */
+
 @media screen and (max-width: 900px) {
     h1 {
         font-family: 'Rajdhani';
@@ -140,45 +176,20 @@ main {
 
     .b1 {
         flex-direction: column-reverse;
-        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
+
 
     p.about_1 {
-        width: 100%;
+        width: 90%;
         padding: 1em;
     }
-}
 
-p.about_1 {
-    /* border: red solid; */
-    display: inline;
-    color: #f0ebd8;
-    width: 40%;
+    .pdp {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-    font-size: 1.3em;
-    text-align: justify;
-
-    vertical-align: top;
-    margin: 0;
 
 }
-
-
-.pdp {
-    width: 53%;
-}
-
-.pdp img {
-    width: 100%;
-    height: auto;
-
-}
-
-.b1 {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-
-
-/* color: #f0ebd8 #142b4d */
