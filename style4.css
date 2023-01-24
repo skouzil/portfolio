@@ -87,7 +87,7 @@ main {
     /* border: green solid; */
 }
 
-section {
+.formu {
     flex-grow: 1;
     height: auto;
     z-index: 1;
