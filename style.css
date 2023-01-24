@@ -94,6 +94,13 @@ main {
     /* border: green solid; */
 }
 
+section {
+    flex-grow: 1;
+    height: auto;
+    z-index: 1;
+    /* border: green solid; */
+}
+
 /* Responsive */
 
 
