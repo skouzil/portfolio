@@ -1,9 +1,13 @@
+/* Page project1 */
+
+
 .svg_1 {
     position: absolute;
     top: 0;
     width: 100%;
     height: auto;
     overflow: hidden;
+
 }
 
 .svg_2 {
@@ -22,7 +26,6 @@
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
-    justify-content: center;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -53,7 +56,13 @@ a:hover {
 /* Concernant les éléments de la page lorsqu'ils sont redimentionnés */
 
 .barredenav {
+    position: absolute;
+    top: 0;
+    width: 100%;
     flex-grow: 1;
+    height: auto;
+    z-index: 1;
+
     /* border: green solid; */
 }
 
@@ -87,6 +96,7 @@ h2 {
     font-size: 5rem;
     text-align: center;
     align-items: center;
+    margin-top: 10%;
 }
 
 /* Barre de navigation */
@@ -101,7 +111,7 @@ h2 {
 
     align-items: center;
     justify-content: space-evenly;
-    z-index: 1;
+    z-index: 3;
     width: 100%;
 }
 
@@ -137,12 +147,7 @@ main {
     /* border: green solid; */
 }
 
-section {
-    flex-grow: 1;
-    height: auto;
-    z-index: 1;
-    /* border: green solid; */
-}
+
 
 /* Mes projets */
 
@@ -217,12 +222,27 @@ section {
     .navbar {
         flex-direction: column;
         padding-top: 1.5em;
+        z-index: 2;
     }
 
     a {
         font-size: 1.5rem;
         text-decoration: none;
         color: #f0ebd8;
+    }
+
+    .a1 {
+        flex-direction: column-reverse;
+    }
+
+    .photo img:hover {
+        transform: none;
+    }
+
+    .photo {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
     }
 }
 
